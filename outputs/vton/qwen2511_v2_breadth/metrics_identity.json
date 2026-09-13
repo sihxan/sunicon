@@ -1,0 +1,99 @@
+{
+  "pose04_R08__G10_V1.png": {
+    "face_h_px": 111,
+    "arcface_cos_to_person_input": 0.8561,
+    "arcface_cos_to_master": 0.7977,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G11_V1.png": {
+    "face_h_px": 112,
+    "arcface_cos_to_person_input": 0.8671,
+    "arcface_cos_to_master": 0.8067,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G4_V1.png": {
+    "face_h_px": 113,
+    "arcface_cos_to_person_input": 0.8665,
+    "arcface_cos_to_master": 0.8084,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G5_V1.png": {
+    "face_h_px": 110,
+    "arcface_cos_to_person_input": 0.8635,
+    "arcface_cos_to_master": 0.7915,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G6_V1.png": {
+    "face_h_px": 110,
+    "arcface_cos_to_person_input": 0.8374,
+    "arcface_cos_to_master": 0.7867,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G7_V1.png": {
+    "face_h_px": 114,
+    "arcface_cos_to_person_input": 0.7392,
+    "arcface_cos_to_master": 0.7185,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G8_V1.png": {
+    "face_h_px": 110,
+    "arcface_cos_to_person_input": 0.864,
+    "arcface_cos_to_master": 0.8136,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G9_V1.png": {
+    "face_h_px": 112,
+    "arcface_cos_to_person_input": 0.8612,
+    "arcface_cos_to_master": 0.7915,
+    "person_input_face_h_px": 117
+  },
+  "pose02_R08__G10_V1.png": {
+    "face_h_px": 105,
+    "arcface_cos_to_person_input": 0.8414,
+    "arcface_cos_to_master": 0.789,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G11_V1.png": {
+    "face_h_px": 106,
+    "arcface_cos_to_person_input": 0.8515,
+    "arcface_cos_to_master": 0.7991,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G4_V1.png": {
+    "face_h_px": 103,
+    "arcface_cos_to_person_input": 0.7847,
+    "arcface_cos_to_master": 0.7661,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G5_V1.png": {
+    "face_h_px": 102,
+    "arcface_cos_to_person_input": 0.7772,
+    "arcface_cos_to_master": 0.7715,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G6_V1.png": {
+    "face_h_px": 106,
+    "arcface_cos_to_person_input": 0.7952,
+    "arcface_cos_to_master": 0.7483,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G7_V1.png": {
+    "face_h_px": 105,
+    "arcface_cos_to_person_input": 0.7932,
+    "arcface_cos_to_master": 0.7806,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G8_V1.png": {
+    "face_h_px": 100,
+    "arcface_cos_to_person_input": 0.8317,
+    "arcface_cos_to_master": 0.8114,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G9_V1.png": {
+    "face_h_px": 110,
+    "arcface_cos_to_person_input": 0.7387,
+    "arcface_cos_to_master": 0.6943,
+    "person_input_face_h_px": 106
+  },
+  "_master_face_h_px": 646
+}

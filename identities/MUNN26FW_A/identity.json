@@ -1,0 +1,32 @@
+{
+  "identity_id": "MUNN26FW_A",
+  "status": "operational_interim_master",
+  "approval": "NOT a client-approved identity. Fixed for pipeline continuity only.",
+  "master_file": "master.png",
+  "sha256": "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649",
+  "size_wh": [
+    1024,
+    1024
+  ],
+  "bytes": 1272158,
+  "origin": {
+    "generator": "Qwen-Image-2512 (retired stack), no LoRA, no ControlNet",
+    "base_revision": "25468b98e3276ca6700de15c6628e51b7de54a26",
+    "seed": 9010,
+    "candidate_id": "C10_s9010",
+    "prompt_family": "F03 sharp androgynous editorial casting descriptor + head-and-shoulders framing",
+    "pool": "12 candidates, seeds 9000-9011, preserved at identities/_qwen_pool_provenance"
+  },
+  "why_not_flux": "CLAUDE_EXECUTION_ORDER §7.1 prefers FLUX-generated candidates. FLUX.1-dev is gated (HTTP 401 GatedRepoError, no HF token on this account), so no FLUX candidate could be generated. This Master is the highest-sharpness single-face frontal candidate from the already-existing pool, fixed so the identity path is not blocked. Replace once FLUX access lands.",
+  "selection_criteria": {
+    "face_sharpness_laplacian_var": 224.0,
+    "rank_in_pool": "1 of 12",
+    "single_face": true,
+    "frontal": true,
+    "eye_level": true,
+    "occlusion": "none",
+    "background": "plain, uniform",
+    "expression": "neutral"
+  },
+  "usage_rule": "Every full-body output must reference these exact bytes. Never silently swap the Master under this ID."
+}

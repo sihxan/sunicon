@@ -1,0 +1,20 @@
+{
+  "V1": {
+    "dino_cos_to_garment": 0.8505,
+    "dino_cos_to_person_original": 0.2787,
+    "lab_dist_to_garment": 13.945,
+    "arcface_cos_to_person_input": 0.8311,
+    "arcface_cos_to_master": 0.7782,
+    "pose_err_vs_person": 0.0883,
+    "n": 6
+  },
+  "V2": {
+    "dino_cos_to_garment": 0.8216,
+    "dino_cos_to_person_original": 0.2938,
+    "lab_dist_to_garment": 16.965,
+    "arcface_cos_to_person_input": 0.831,
+    "arcface_cos_to_master": 0.7801,
+    "pose_err_vs_person": 0.0929,
+    "n": 6
+  }
+}

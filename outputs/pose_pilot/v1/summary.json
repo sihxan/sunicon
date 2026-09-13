@@ -1,0 +1,50 @@
+{
+  "T0": {
+    "n": 4,
+    "label": "text pose only, refs=[master]",
+    "joint_err_mean": 0.2615,
+    "joint_err_best_mean": 0.2526,
+    "facing_matches_reference": "3/4",
+    "pck02_mean": 0.666,
+    "arcface_cos_mean": 0.903,
+    "arcface_cos_min": 0.8734,
+    "face_h_px_mean": 129,
+    "outputs_with_no_face": 0
+  },
+  "N1": {
+    "n": 4,
+    "label": "native multi-ref, refs=[skel,master]",
+    "joint_err_mean": 0.1985,
+    "joint_err_best_mean": 0.1985,
+    "facing_matches_reference": "3/4",
+    "pck02_mean": 0.736,
+    "arcface_cos_mean": 0.8417,
+    "arcface_cos_min": 0.6831,
+    "face_h_px_mean": 111,
+    "outputs_with_no_face": 0
+  },
+  "R08": {
+    "n": 4,
+    "label": "RefControl LoRA 0.8",
+    "joint_err_mean": 0.1933,
+    "joint_err_best_mean": 0.1933,
+    "facing_matches_reference": "3/4",
+    "pck02_mean": 0.736,
+    "arcface_cos_mean": 0.8776,
+    "arcface_cos_min": 0.8464,
+    "face_h_px_mean": 112,
+    "outputs_with_no_face": 0
+  },
+  "R10": {
+    "n": 4,
+    "label": "RefControl LoRA 1.0",
+    "joint_err_mean": 0.1983,
+    "joint_err_best_mean": 0.1983,
+    "facing_matches_reference": "3/4",
+    "pck02_mean": 0.736,
+    "arcface_cos_mean": 0.8667,
+    "arcface_cos_min": 0.8198,
+    "face_h_px_mean": 113,
+    "outputs_with_no_face": 0
+  }
+}

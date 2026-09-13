@@ -1,0 +1,122 @@
+[
+  {
+    "name": "pose04_R08__G1_V1.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G1",
+    "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+    "strategy": "V1",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose04_R08__G1_V2.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G1",
+    "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+    "strategy": "V2",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is a cream white double-breasted jacquard blazer with black buttons, worn with matching cream white trousers and black loafers."
+  },
+  {
+    "name": "pose04_R08__G2_V1.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G2",
+    "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+    "strategy": "V1",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose04_R08__G2_V2.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G2",
+    "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+    "strategy": "V2",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is an oversized olive green military coat with wide lapels worn open over a dark navy slip dress, with sheer black tights and black pointed heels."
+  },
+  {
+    "name": "pose04_R08__G3_V1.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G3",
+    "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+    "strategy": "V1",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose04_R08__G3_V2.png",
+    "person": "outputs/pose_pilot/v1/pose04_R08.png",
+    "person_tag": "pose04_R08",
+    "garment_id": "G3",
+    "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+    "strategy": "V2",
+    "seed": 4411,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is a strapless amber orange heavily textured loop-knit mini dress, worn with sheer black tights and heeled sandals."
+  },
+  {
+    "name": "pose02_R08__G1_V1.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G1",
+    "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+    "strategy": "V1",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose02_R08__G1_V2.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G1",
+    "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+    "strategy": "V2",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is a cream white double-breasted jacquard blazer with black buttons, worn with matching cream white trousers and black loafers."
+  },
+  {
+    "name": "pose02_R08__G2_V1.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G2",
+    "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+    "strategy": "V1",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose02_R08__G2_V2.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G2",
+    "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+    "strategy": "V2",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is an oversized olive green military coat with wide lapels worn open over a dark navy slip dress, with sheer black tights and black pointed heels."
+  },
+  {
+    "name": "pose02_R08__G3_V1.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G3",
+    "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+    "strategy": "V1",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2."
+  },
+  {
+    "name": "pose02_R08__G3_V2.png",
+    "person": "outputs/pose_pilot/v1/pose02_R08.png",
+    "person_tag": "pose02_R08",
+    "garment_id": "G3",
+    "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+    "strategy": "V2",
+    "seed": 4412,
+    "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is a strapless amber orange heavily textured loop-knit mini dress, worn with sheer black tights and heeled sandals."
+  }
+]

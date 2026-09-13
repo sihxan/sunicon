@@ -1,0 +1,11 @@
+{
+  "V1": {
+    "dino_cos_to_garment": 0.8656,
+    "dino_cos_to_person_original": 0.2596,
+    "lab_dist_to_garment": 9.2133,
+    "arcface_cos_to_person_input": 0.8286,
+    "arcface_cos_to_master": 0.7717,
+    "pose_err_vs_person": 0.093,
+    "n": 12
+  }
+}

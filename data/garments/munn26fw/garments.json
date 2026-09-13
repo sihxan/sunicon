@@ -1,0 +1,266 @@
+[
+  {
+    "id": "G1",
+    "frame": "munn26fw_0003.jpg",
+    "desc": "a cream white double-breasted jacquard blazer with black buttons, worn with matching cream white trousers and black loafers",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0003.jpg",
+    "source_sha256": "eae1355180cd21359bd18d094d11202dfcbae88194f0da7b83b57d0ac35f7cfb",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1254,
+      1364,
+      2316,
+      4200
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G1_munn26fw_0003.png",
+    "out_wh": [
+      479,
+      1280
+    ],
+    "out_sha256": "d5d9aca2eda991d7aad15eb8c09257ccb310c09acc3e8d1ce936bd119752791a"
+  },
+  {
+    "id": "G10",
+    "frame": "munn26fw_0031.jpg",
+    "desc": "a black mini dress covered in long black fringing with a bare back, worn with sheer black tights and black heels",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0031.jpg",
+    "source_sha256": "91b5c798d6436aca8b60fd542bcd0c573f36fa871a3e00b78aba6e51aaf03d96",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1426,
+      1501,
+      2215,
+      4224
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G10_munn26fw_0031.png",
+    "out_wh": [
+      370,
+      1280
+    ],
+    "out_sha256": "29a94983554a07cd9537f28d8ee6b29c59ba3cfff1842caa3d57bf033ac6cb6d"
+  },
+  {
+    "id": "G11",
+    "frame": "munn26fw_0032.jpg",
+    "desc": "a beige trench coat worn open over a black leather midi skirt and a sheer black top",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0032.jpg",
+    "source_sha256": "d1ad90f79322a8f65b68e82bcc119dfa5e89624435bf99aea48fbe0ee77b91bd",
+    "source_wh": [
+      4724,
+      5906
+    ],
+    "crop_xyxy_px": [
+      1349,
+      1920,
+      3478,
+      5520
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G11_munn26fw_0032.png",
+    "out_wh": [
+      756,
+      1280
+    ],
+    "out_sha256": "38961ce3ca2f5042231c745d1c7e340cb0544e642abbc26f579abaf631c95efe"
+  },
+  {
+    "id": "G2",
+    "frame": "munn26fw_0010.jpg",
+    "desc": "an oversized olive green military coat with wide lapels worn open over a dark navy slip dress, with sheer black tights and black pointed heels",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0010.jpg",
+    "source_sha256": "c6f0d09725e0d37d9271b3da550e0e5d27bf220b18f7c5a636ac53fa6d7926a6",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1022,
+      1440,
+      2451,
+      4158
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G2_munn26fw_0010.png",
+    "out_wh": [
+      672,
+      1280
+    ],
+    "out_sha256": "c79d86e8ad64b37e22112369d8eaca44f90e0e7f82e22046608835e8a694c18a"
+  },
+  {
+    "id": "G3",
+    "frame": "munn26fw_0022.jpg",
+    "desc": "a strapless amber orange heavily textured loop-knit mini dress, worn with sheer black tights and heeled sandals",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0022.jpg",
+    "source_sha256": "7954c8cc030d214d232ceb00b3c4a2f0759d8c5eaa0c32d2d220f41d545024a6",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1355,
+      1494,
+      2379,
+      4158
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G3_munn26fw_0022.png",
+    "out_wh": [
+      492,
+      1280
+    ],
+    "out_sha256": "c48237d3cdc0ad0e648488a4f826518aabc5e1d945d122089fc2a3d9be2508b6"
+  },
+  {
+    "id": "G4",
+    "frame": "munn26fw_0004.jpg",
+    "desc": "an oversized camel brown double-breasted blazer with matching wide camel trousers",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0004.jpg",
+    "source_sha256": "f5cb3b5e1f8fd78c3acd39b1c6a5c52c44ff763a9d770813c12b5ccd94d6261d",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1322,
+      1453,
+      2127,
+      4208
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G4_munn26fw_0004.png",
+    "out_wh": [
+      374,
+      1280
+    ],
+    "out_sha256": "0a53b2e41c4b9c3eac25966b592a238f6ad88533de673da343c478c673c97762"
+  },
+  {
+    "id": "G5",
+    "frame": "munn26fw_0011.jpg",
+    "desc": "an oversized glossy black padded bomber jacket worn over a sheer black top and dark denim shorts",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0011.jpg",
+    "source_sha256": "10547e8cbc4da0072284edb09fa04deff76247258b7eede89e34fb090f13296a",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      912,
+      1329,
+      2565,
+      4131
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G5_munn26fw_0011.png",
+    "out_wh": [
+      755,
+      1280
+    ],
+    "out_sha256": "131bdc274332e10e987adbb926e80e952ae523e7e75d03e41b177d62d438f683"
+  },
+  {
+    "id": "G6",
+    "frame": "munn26fw_0012.jpg",
+    "desc": "a cream white structured jacket with gold buttons worn with gold metallic skinny trousers",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0012.jpg",
+    "source_sha256": "09357ade5bc13745c94d6e4ad70c2168c43133ebd3411343f89c3325465a8dd4",
+    "source_wh": [
+      4724,
+      5906
+    ],
+    "crop_xyxy_px": [
+      1329,
+      1707,
+      3183,
+      5556
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G6_munn26fw_0012.png",
+    "out_wh": [
+      616,
+      1280
+    ],
+    "out_sha256": "c0ebe9b48e5b57cb1d7a27746bd26c4d1baaf20d1dbfaf49138d16034b12edce"
+  },
+  {
+    "id": "G7",
+    "frame": "munn26fw_0018.jpg",
+    "desc": "a black pinstripe oversized double-breasted suit with very wide floor-length trousers",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0018.jpg",
+    "source_sha256": "7e6094e5296476a084bf9d43d5bc160a07b04979f568c9df4853fb9548fdcfad",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1216,
+      1356,
+      2373,
+      4218
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G7_munn26fw_0018.png",
+    "out_wh": [
+      517,
+      1280
+    ],
+    "out_sha256": "b668451788ca7e9f1688dfa4aa96e1b5bb478080159b6bdd5c01ed1327731023"
+  },
+  {
+    "id": "G8",
+    "frame": "munn26fw_0024.jpg",
+    "desc": "a long cream boucle coat with toggle fastenings, worn open over black wide-leg trousers",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0024.jpg",
+    "source_sha256": "ad703552667516ec784dacbdbc06d5985763145a7c202925cbfa09c2601cdb63",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      1264,
+      1322,
+      2463,
+      4264
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G8_munn26fw_0024.png",
+    "out_wh": [
+      521,
+      1280
+    ],
+    "out_sha256": "15d026307be72003ded4ea7578d2efa5d03bf9696c0247cf7fded210a457f385"
+  },
+  {
+    "id": "G9",
+    "frame": "munn26fw_0027.jpg",
+    "desc": "a beige oversized jacket over a taupe mini skirt densely covered in three-dimensional floral appliques",
+    "source_path": "data/raw/munn26fw/images/munn26fw_0027.jpg",
+    "source_sha256": "6a74497b4dbcadf81fafed7fbe80fbb92c6859c61223b0eaec17e83ba160635c",
+    "source_wh": [
+      3600,
+      4500
+    ],
+    "crop_xyxy_px": [
+      959,
+      1436,
+      2367,
+      4175
+    ],
+    "crop_top_rule": "DWPose neck joint (shoulder midpoint), below the chin",
+    "out_path": "data/garments/munn26fw/G9_munn26fw_0027.png",
+    "out_wh": [
+      657,
+      1280
+    ],
+    "out_sha256": "f5f0c87b8394d08507d888e66af8dce1afe3db2b3894bd929145458a2b75f987"
+  }
+]

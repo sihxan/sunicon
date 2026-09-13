@@ -1,0 +1,425 @@
+{
+  "experiment": "flux2_pose_identity_v1",
+  "created_at": "2026-09-13T10:17:37",
+  "base_model": "/home/shkim/repos/munn_flux_modelcut/models/flux2_klein_base_9b",
+  "lora": "/home/shkim/repos/munn_flux_modelcut/models/flux2_loras/refcontrol_pose/refcontrol_v2_poses.safetensors",
+  "lora_sha256": "a22ec6a5406ccdb7a247684a40f96b52a83520efa00ebe56528cf54d0e5d473b",
+  "trigger_phrase": "apply pose from image 1 with reference from image 2",
+  "pose_text_used_only_by": "T0",
+  "width": 1024,
+  "height": 1280,
+  "steps": 50,
+  "guidance": 4.0,
+  "pose_text": {
+    "pose01": "standing straight and facing the camera, both arms hanging down close to the sides, feet together",
+    "pose02": "standing and facing the camera with both hands resting on the hips and both elbows pushed out to the sides",
+    "pose03": "standing and facing the camera with one hand resting on the hip, the other arm hanging down, and the legs crossed at the ankles",
+    "pose04": "standing and facing the camera with both arms hanging down and slightly away from the body, weight shifted onto one leg"
+  },
+  "jobs": [
+    {
+      "name": "pose01_T0.png",
+      "pose_id": "pose01",
+      "condition": "T0",
+      "seed": 7301,
+      "lora_scale": null,
+      "reference_roles": [
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+      "source_frame": "0040.jpg",
+      "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing straight and facing the camera, both arms hanging down close to the sides, feet together, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 50.5,
+      "references_sent": [
+        "master"
+      ],
+      "reference_sha256": [
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose01_N1.png",
+      "pose_id": "pose01",
+      "condition": "N1",
+      "seed": 7301,
+      "lora_scale": null,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+      "source_frame": "0040.jpg",
+      "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 78.0,
+      "references_sent": [
+        "pose01",
+        "master"
+      ],
+      "reference_sha256": [
+        "d074a5f031207f2d1132d30f74a0acb6e2f2d3b1259507f7e7cb4ce4b6c062e4",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose02_T0.png",
+      "pose_id": "pose02",
+      "condition": "T0",
+      "seed": 7302,
+      "lora_scale": null,
+      "reference_roles": [
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+      "source_frame": "0036.jpg",
+      "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with both hands resting on the hips and both elbows pushed out to the sides, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 50.6,
+      "references_sent": [
+        "master"
+      ],
+      "reference_sha256": [
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose02_N1.png",
+      "pose_id": "pose02",
+      "condition": "N1",
+      "seed": 7302,
+      "lora_scale": null,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+      "source_frame": "0036.jpg",
+      "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 78.3,
+      "references_sent": [
+        "pose02",
+        "master"
+      ],
+      "reference_sha256": [
+        "ced3226438911ef0ba63d51d61f5780042a6bfbeae0d2ef1db1faf786aa8c7c7",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose03_T0.png",
+      "pose_id": "pose03",
+      "condition": "T0",
+      "seed": 7303,
+      "lora_scale": null,
+      "reference_roles": [
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+      "source_frame": "0037.jpg",
+      "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with one hand resting on the hip, the other arm hanging down, and the legs crossed at the ankles, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 49.9,
+      "references_sent": [
+        "master"
+      ],
+      "reference_sha256": [
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose03_N1.png",
+      "pose_id": "pose03",
+      "condition": "N1",
+      "seed": 7303,
+      "lora_scale": null,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+      "source_frame": "0037.jpg",
+      "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 77.9,
+      "references_sent": [
+        "pose03",
+        "master"
+      ],
+      "reference_sha256": [
+        "8c32a1ea606c470f72d837bb751d52ec452dbaab56b60f1483f9f9e1476f8a0d",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose04_T0.png",
+      "pose_id": "pose04",
+      "condition": "T0",
+      "seed": 7304,
+      "lora_scale": null,
+      "reference_roles": [
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+      "source_frame": "0039.jpg",
+      "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with both arms hanging down and slightly away from the body, weight shifted onto one leg, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 49.8,
+      "references_sent": [
+        "master"
+      ],
+      "reference_sha256": [
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose04_N1.png",
+      "pose_id": "pose04",
+      "condition": "N1",
+      "seed": 7304,
+      "lora_scale": null,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+      "source_frame": "0039.jpg",
+      "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 77.9,
+      "references_sent": [
+        "pose04",
+        "master"
+      ],
+      "reference_sha256": [
+        "6574bf29616b7569783ac7062a3a12443035d26803737e9a4a99d3ba6960e179",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": false
+    },
+    {
+      "name": "pose01_R08.png",
+      "pose_id": "pose01",
+      "condition": "R08",
+      "seed": 7301,
+      "lora_scale": 0.8,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+      "source_frame": "0040.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose01",
+        "master"
+      ],
+      "reference_sha256": [
+        "d074a5f031207f2d1132d30f74a0acb6e2f2d3b1259507f7e7cb4ce4b6c062e4",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose02_R08.png",
+      "pose_id": "pose02",
+      "condition": "R08",
+      "seed": 7302,
+      "lora_scale": 0.8,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+      "source_frame": "0036.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose02",
+        "master"
+      ],
+      "reference_sha256": [
+        "ced3226438911ef0ba63d51d61f5780042a6bfbeae0d2ef1db1faf786aa8c7c7",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose03_R08.png",
+      "pose_id": "pose03",
+      "condition": "R08",
+      "seed": 7303,
+      "lora_scale": 0.8,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+      "source_frame": "0037.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose03",
+        "master"
+      ],
+      "reference_sha256": [
+        "8c32a1ea606c470f72d837bb751d52ec452dbaab56b60f1483f9f9e1476f8a0d",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose04_R08.png",
+      "pose_id": "pose04",
+      "condition": "R08",
+      "seed": 7304,
+      "lora_scale": 0.8,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+      "source_frame": "0039.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.5,
+      "references_sent": [
+        "pose04",
+        "master"
+      ],
+      "reference_sha256": [
+        "6574bf29616b7569783ac7062a3a12443035d26803737e9a4a99d3ba6960e179",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose01_R10.png",
+      "pose_id": "pose01",
+      "condition": "R10",
+      "seed": 7301,
+      "lora_scale": 1.0,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+      "source_frame": "0040.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose01",
+        "master"
+      ],
+      "reference_sha256": [
+        "d074a5f031207f2d1132d30f74a0acb6e2f2d3b1259507f7e7cb4ce4b6c062e4",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose02_R10.png",
+      "pose_id": "pose02",
+      "condition": "R10",
+      "seed": 7302,
+      "lora_scale": 1.0,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+      "source_frame": "0036.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose02",
+        "master"
+      ],
+      "reference_sha256": [
+        "ced3226438911ef0ba63d51d61f5780042a6bfbeae0d2ef1db1faf786aa8c7c7",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose03_R10.png",
+      "pose_id": "pose03",
+      "condition": "R10",
+      "seed": 7303,
+      "lora_scale": 1.0,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+      "source_frame": "0037.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose03",
+        "master"
+      ],
+      "reference_sha256": [
+        "8c32a1ea606c470f72d837bb751d52ec452dbaab56b60f1483f9f9e1476f8a0d",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    },
+    {
+      "name": "pose04_R10.png",
+      "pose_id": "pose04",
+      "condition": "R10",
+      "seed": 7304,
+      "lora_scale": 1.0,
+      "reference_roles": [
+        "skeleton",
+        "master"
+      ],
+      "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+      "source_frame": "0039.jpg",
+      "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing.",
+      "status": "ok",
+      "error": "",
+      "seconds": 85.6,
+      "references_sent": [
+        "pose04",
+        "master"
+      ],
+      "reference_sha256": [
+        "6574bf29616b7569783ac7062a3a12443035d26803737e9a4a99d3ba6960e179",
+        "ac0635508fe5061d791dbf7ad00bb0f321093331746951843da11bc95641e649"
+      ],
+      "lora_adapter_attached": true
+    }
+  ]
+}

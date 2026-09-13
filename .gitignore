@@ -1,0 +1,16 @@
+# Never publish weights, environments, caches or raw brand assets from this project.
+models/
+envs/
+hf_cache/
+checkpoints/
+data/raw/
+data/train/
+logs/
+*.safetensors
+*.onnx
+*.ckpt
+*.pth
+__pycache__/
+*.pyc
+.env
+*token*

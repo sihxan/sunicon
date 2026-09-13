@@ -1,0 +1,178 @@
+{
+  "pose01_T0.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.6041,
+    "pck02": 0.167,
+    "joint_err_mirrored": 0.6038,
+    "joint_err_best": 0.6038,
+    "pck02_best": 0.167,
+    "facing_matches_reference": false,
+    "joints_compared": 18
+  },
+  "pose01_N1.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.5506,
+    "pck02": 0.222,
+    "joint_err_mirrored": 0.5526,
+    "joint_err_best": 0.5506,
+    "pck02_best": 0.222,
+    "facing_matches_reference": false,
+    "joints_compared": 18
+  },
+  "pose02_T0.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0838,
+    "pck02": 0.944,
+    "joint_err_mirrored": 0.0813,
+    "joint_err_best": 0.0813,
+    "pck02_best": 0.944,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose02_N1.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0453,
+    "pck02": 1.0,
+    "joint_err_mirrored": 0.0587,
+    "joint_err_best": 0.0453,
+    "pck02_best": 1.0,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose03_T0.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.1883,
+    "pck02": 0.722,
+    "joint_err_mirrored": 0.1574,
+    "joint_err_best": 0.1574,
+    "pck02_best": 0.833,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose03_N1.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0924,
+    "pck02": 0.944,
+    "joint_err_mirrored": 0.2833,
+    "joint_err_best": 0.0924,
+    "pck02_best": 0.944,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose04_T0.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.1699,
+    "pck02": 0.722,
+    "joint_err_mirrored": 0.1678,
+    "joint_err_best": 0.1678,
+    "pck02_best": 0.722,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose04_N1.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.1056,
+    "pck02": 0.778,
+    "joint_err_mirrored": 0.1743,
+    "joint_err_best": 0.1056,
+    "pck02_best": 0.778,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose01_R08.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.538,
+    "pck02": 0.222,
+    "joint_err_mirrored": 0.5392,
+    "joint_err_best": 0.538,
+    "pck02_best": 0.222,
+    "facing_matches_reference": false,
+    "joints_compared": 18
+  },
+  "pose02_R08.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0395,
+    "pck02": 1.0,
+    "joint_err_mirrored": 0.0651,
+    "joint_err_best": 0.0395,
+    "pck02_best": 1.0,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose03_R08.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0641,
+    "pck02": 1.0,
+    "joint_err_mirrored": 0.2449,
+    "joint_err_best": 0.0641,
+    "pck02_best": 1.0,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose04_R08.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.1315,
+    "pck02": 0.722,
+    "joint_err_mirrored": 0.1991,
+    "joint_err_best": 0.1315,
+    "pck02_best": 0.722,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose01_R10.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.5427,
+    "pck02": 0.222,
+    "joint_err_mirrored": 0.5437,
+    "joint_err_best": 0.5427,
+    "pck02_best": 0.222,
+    "facing_matches_reference": false,
+    "joints_compared": 18
+  },
+  "pose02_R10.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.0403,
+    "pck02": 1.0,
+    "joint_err_mirrored": 0.0664,
+    "joint_err_best": 0.0403,
+    "pck02_best": 1.0,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose03_R10.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.066,
+    "pck02": 1.0,
+    "joint_err_mirrored": 0.2465,
+    "joint_err_best": 0.066,
+    "pck02_best": 1.0,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  },
+  "pose04_R10.png": {
+    "n_people_detected": 1,
+    "n_visible_joints": 18,
+    "joint_err": 0.1444,
+    "pck02": 0.722,
+    "joint_err_mirrored": 0.2075,
+    "joint_err_best": 0.1444,
+    "pck02_best": 0.722,
+    "facing_matches_reference": true,
+    "joints_compared": 18
+  }
+}

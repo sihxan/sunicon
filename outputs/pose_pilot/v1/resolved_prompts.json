@@ -1,0 +1,222 @@
+[
+  {
+    "name": "pose01_T0.png",
+    "pose_id": "pose01",
+    "condition": "T0",
+    "seed": 7301,
+    "lora_scale": null,
+    "reference_roles": [
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+    "source_frame": "0040.jpg",
+    "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing straight and facing the camera, both arms hanging down close to the sides, feet together, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose01_N1.png",
+    "pose_id": "pose01",
+    "condition": "N1",
+    "seed": 7301,
+    "lora_scale": null,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+    "source_frame": "0040.jpg",
+    "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose01_R08.png",
+    "pose_id": "pose01",
+    "condition": "R08",
+    "seed": 7301,
+    "lora_scale": 0.8,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+    "source_frame": "0040.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose01_R10.png",
+    "pose_id": "pose01",
+    "condition": "R10",
+    "seed": 7301,
+    "lora_scale": 1.0,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose01_0040.png",
+    "source_frame": "0040.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose02_T0.png",
+    "pose_id": "pose02",
+    "condition": "T0",
+    "seed": 7302,
+    "lora_scale": null,
+    "reference_roles": [
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+    "source_frame": "0036.jpg",
+    "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with both hands resting on the hips and both elbows pushed out to the sides, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose02_N1.png",
+    "pose_id": "pose02",
+    "condition": "N1",
+    "seed": 7302,
+    "lora_scale": null,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+    "source_frame": "0036.jpg",
+    "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose02_R08.png",
+    "pose_id": "pose02",
+    "condition": "R08",
+    "seed": 7302,
+    "lora_scale": 0.8,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+    "source_frame": "0036.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose02_R10.png",
+    "pose_id": "pose02",
+    "condition": "R10",
+    "seed": 7302,
+    "lora_scale": 1.0,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose02_0036.png",
+    "source_frame": "0036.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose03_T0.png",
+    "pose_id": "pose03",
+    "condition": "T0",
+    "seed": 7303,
+    "lora_scale": null,
+    "reference_roles": [
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+    "source_frame": "0037.jpg",
+    "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with one hand resting on the hip, the other arm hanging down, and the legs crossed at the ankles, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose03_N1.png",
+    "pose_id": "pose03",
+    "condition": "N1",
+    "seed": 7303,
+    "lora_scale": null,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+    "source_frame": "0037.jpg",
+    "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose03_R08.png",
+    "pose_id": "pose03",
+    "condition": "R08",
+    "seed": 7303,
+    "lora_scale": 0.8,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+    "source_frame": "0037.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose03_R10.png",
+    "pose_id": "pose03",
+    "condition": "R10",
+    "seed": 7303,
+    "lora_scale": 1.0,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose03_0037.png",
+    "source_frame": "0037.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose04_T0.png",
+    "pose_id": "pose04",
+    "condition": "T0",
+    "seed": 7304,
+    "lora_scale": null,
+    "reference_roles": [
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+    "source_frame": "0039.jpg",
+    "resolved_prompt": "Image 1 is the identity reference for the model. Photograph that same person standing and facing the camera with both arms hanging down and slightly away from the body, weight shifted onto one leg, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose04_N1.png",
+    "pose_id": "pose04",
+    "condition": "N1",
+    "seed": 7304,
+    "lora_scale": null,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+    "source_frame": "0039.jpg",
+    "resolved_prompt": "Image 1 is a pose skeleton and image 2 is the identity reference for the model. Match the exact pose from image 1 - same arm position, same body angle, same head direction. Use the person from image 2. Photograph that person wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve the person's facial identity. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose04_R08.png",
+    "pose_id": "pose04",
+    "condition": "R08",
+    "seed": 7304,
+    "lora_scale": 0.8,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+    "source_frame": "0039.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  },
+  {
+    "name": "pose04_R10.png",
+    "pose_id": "pose04",
+    "condition": "R10",
+    "seed": 7304,
+    "lora_scale": 1.0,
+    "reference_roles": [
+      "skeleton",
+      "master"
+    ],
+    "skeleton_png": "data/pose_refs/munn26fw/pose04_0039.png",
+    "source_frame": "0039.jpg",
+    "resolved_prompt": "apply pose from image 1 with reference from image 2. Image 1 is a pose skeleton and image 2 is the identity reference. Photograph the person from image 2 in the pose from image 1, wearing a plain fitted tank top and plain straight trousers, on a plain light grey seamless studio backdrop, soft even studio lighting, eye-level camera, the full figure from head to feet inside the frame. Do not draw the skeleton itself. Preserve natural skin texture with visible pores and uneven tone; no airbrushing."
+  }
+]

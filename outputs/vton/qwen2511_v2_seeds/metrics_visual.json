@@ -1,0 +1,170 @@
+{
+  "pose04_R08__G1_V1_s8801.png": {
+    "dino_cos_to_garment": 0.8763,
+    "dino_cos_to_person_original": 0.2146,
+    "lab_dist_to_garment": 18.53,
+    "lab_dist_to_person_original": 106.06,
+    "pose_err_vs_person": 0.1137,
+    "torso_box": [
+      359,
+      374,
+      680,
+      745
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G1_V1_s9902.png": {
+    "dino_cos_to_garment": 0.8978,
+    "dino_cos_to_person_original": 0.2207,
+    "lab_dist_to_garment": 19.77,
+    "lab_dist_to_person_original": 107.36,
+    "pose_err_vs_person": 0.1269,
+    "torso_box": [
+      363,
+      366,
+      668,
+      739
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G2_V1_s8801.png": {
+    "dino_cos_to_garment": 0.9382,
+    "dino_cos_to_person_original": 0.1478,
+    "lab_dist_to_garment": 4.77,
+    "lab_dist_to_person_original": 42.92,
+    "pose_err_vs_person": 0.1392,
+    "torso_box": [
+      347,
+      359,
+      674,
+      737
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G2_V1_s9902.png": {
+    "dino_cos_to_garment": 0.9022,
+    "dino_cos_to_person_original": 0.2034,
+    "lab_dist_to_garment": 2.8,
+    "lab_dist_to_person_original": 43.02,
+    "pose_err_vs_person": 0.1218,
+    "torso_box": [
+      355,
+      371,
+      670,
+      735
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G3_V1_s8801.png": {
+    "dino_cos_to_garment": 0.9311,
+    "dino_cos_to_person_original": 0.3436,
+    "lab_dist_to_garment": 3.91,
+    "lab_dist_to_person_original": 46.56,
+    "pose_err_vs_person": 0.0898,
+    "torso_box": [
+      346,
+      248,
+      687,
+      640
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G3_V1_s9902.png": {
+    "dino_cos_to_garment": 0.7901,
+    "dino_cos_to_person_original": 0.4299,
+    "lab_dist_to_garment": 1.83,
+    "lab_dist_to_person_original": 45.65,
+    "pose_err_vs_person": 0.104,
+    "torso_box": [
+      362,
+      369,
+      657,
+      735
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G1_V1_s8801.png": {
+    "dino_cos_to_garment": 0.8518,
+    "dino_cos_to_person_original": 0.2443,
+    "lab_dist_to_garment": 12.44,
+    "lab_dist_to_person_original": 61.4,
+    "pose_err_vs_person": 0.0505,
+    "torso_box": [
+      348,
+      384,
+      651,
+      712
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G1_V1_s9902.png": {
+    "dino_cos_to_garment": 0.8416,
+    "dino_cos_to_person_original": 0.2358,
+    "lab_dist_to_garment": 15.46,
+    "lab_dist_to_person_original": 64.54,
+    "pose_err_vs_person": 0.0598,
+    "torso_box": [
+      350,
+      374,
+      640,
+      717
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G2_V1_s8801.png": {
+    "dino_cos_to_garment": 0.9154,
+    "dino_cos_to_person_original": 0.1648,
+    "lab_dist_to_garment": 20.81,
+    "lab_dist_to_person_original": 101.92,
+    "pose_err_vs_person": 0.1134,
+    "torso_box": [
+      336,
+      386,
+      652,
+      745
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G2_V1_s9902.png": {
+    "dino_cos_to_garment": 0.9289,
+    "dino_cos_to_person_original": 0.1395,
+    "lab_dist_to_garment": 4.78,
+    "lab_dist_to_person_original": 86.12,
+    "pose_err_vs_person": 0.093,
+    "torso_box": [
+      340,
+      382,
+      656,
+      737
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G3_V1_s8801.png": {
+    "dino_cos_to_garment": 0.7523,
+    "dino_cos_to_person_original": 0.4135,
+    "lab_dist_to_garment": 2.45,
+    "lab_dist_to_person_original": 29.72,
+    "pose_err_vs_person": 0.0614,
+    "torso_box": [
+      363,
+      380,
+      640,
+      717
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G3_V1_s9902.png": {
+    "dino_cos_to_garment": 0.7612,
+    "dino_cos_to_person_original": 0.3568,
+    "lab_dist_to_garment": 3.01,
+    "lab_dist_to_person_original": 28.53,
+    "pose_err_vs_person": 0.0423,
+    "torso_box": [
+      355,
+      380,
+      638,
+      712
+    ],
+    "people_detected_in_output": 1
+  }
+}

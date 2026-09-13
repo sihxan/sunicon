@@ -1,0 +1,66 @@
+{
+  "pose01_T0.png": {
+    "arcface_cos": 0.9122,
+    "face_h_px": 135
+  },
+  "pose01_N1.png": {
+    "arcface_cos": 0.8918,
+    "face_h_px": 114
+  },
+  "pose02_T0.png": {
+    "arcface_cos": 0.9199,
+    "face_h_px": 125
+  },
+  "pose02_N1.png": {
+    "arcface_cos": 0.9025,
+    "face_h_px": 110
+  },
+  "pose03_T0.png": {
+    "arcface_cos": 0.8734,
+    "face_h_px": 121
+  },
+  "pose03_N1.png": {
+    "arcface_cos": 0.6831,
+    "face_h_px": 106
+  },
+  "pose04_T0.png": {
+    "arcface_cos": 0.9064,
+    "face_h_px": 137
+  },
+  "pose04_N1.png": {
+    "arcface_cos": 0.8896,
+    "face_h_px": 115
+  },
+  "pose01_R08.png": {
+    "arcface_cos": 0.8923,
+    "face_h_px": 113
+  },
+  "pose02_R08.png": {
+    "arcface_cos": 0.887,
+    "face_h_px": 106
+  },
+  "pose03_R08.png": {
+    "arcface_cos": 0.8464,
+    "face_h_px": 112
+  },
+  "pose04_R08.png": {
+    "arcface_cos": 0.8846,
+    "face_h_px": 117
+  },
+  "pose01_R10.png": {
+    "arcface_cos": 0.8849,
+    "face_h_px": 114
+  },
+  "pose02_R10.png": {
+    "arcface_cos": 0.8844,
+    "face_h_px": 109
+  },
+  "pose03_R10.png": {
+    "arcface_cos": 0.8198,
+    "face_h_px": 114
+  },
+  "pose04_R10.png": {
+    "arcface_cos": 0.8778,
+    "face_h_px": 117
+  }
+}

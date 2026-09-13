@@ -1,0 +1,75 @@
+{
+  "pose04_R08__G1_V1_s8801.png": {
+    "face_h_px": 112,
+    "arcface_cos_to_person_input": 0.872,
+    "arcface_cos_to_master": 0.8048,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G1_V1_s9902.png": {
+    "face_h_px": 112,
+    "arcface_cos_to_person_input": 0.8355,
+    "arcface_cos_to_master": 0.7682,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G2_V1_s8801.png": {
+    "face_h_px": 103,
+    "arcface_cos_to_person_input": 0.8784,
+    "arcface_cos_to_master": 0.7876,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G2_V1_s9902.png": {
+    "face_h_px": 109,
+    "arcface_cos_to_person_input": 0.8527,
+    "arcface_cos_to_master": 0.7893,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G3_V1_s8801.png": {
+    "face_h_px": 127,
+    "arcface_cos_to_person_input": 0.794,
+    "arcface_cos_to_master": 0.7016,
+    "person_input_face_h_px": 117
+  },
+  "pose04_R08__G3_V1_s9902.png": {
+    "face_h_px": 118,
+    "arcface_cos_to_person_input": 0.8588,
+    "arcface_cos_to_master": 0.78,
+    "person_input_face_h_px": 117
+  },
+  "pose02_R08__G1_V1_s8801.png": {
+    "face_h_px": 101,
+    "arcface_cos_to_person_input": 0.7957,
+    "arcface_cos_to_master": 0.725,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G1_V1_s9902.png": {
+    "face_h_px": 101,
+    "arcface_cos_to_person_input": 0.8367,
+    "arcface_cos_to_master": 0.8024,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G2_V1_s8801.png": {
+    "face_h_px": 100,
+    "arcface_cos_to_person_input": 0.7721,
+    "arcface_cos_to_master": 0.7956,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G2_V1_s9902.png": {
+    "face_h_px": 102,
+    "arcface_cos_to_person_input": 0.8152,
+    "arcface_cos_to_master": 0.7904,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G3_V1_s8801.png": {
+    "face_h_px": 100,
+    "arcface_cos_to_person_input": 0.8003,
+    "arcface_cos_to_master": 0.7733,
+    "person_input_face_h_px": 106
+  },
+  "pose02_R08__G3_V1_s9902.png": {
+    "face_h_px": 106,
+    "arcface_cos_to_person_input": 0.832,
+    "arcface_cos_to_master": 0.7424,
+    "person_input_face_h_px": 106
+  },
+  "_master_face_h_px": 646
+}

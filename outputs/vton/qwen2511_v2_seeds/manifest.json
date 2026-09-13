@@ -1,0 +1,406 @@
+{
+  "experiment": "qwen_edit_2511_vton_v1",
+  "created_at": "2026-09-13T11:51:35",
+  "model": "Qwen/Qwen-Image-Edit-2511",
+  "model_dir": "/home/shkim/repos/munn_flux_modelcut/models/qwen_image_edit_2511",
+  "pipeline": "QwenImageEditPlusPipeline",
+  "reference_order": "[person, garment]",
+  "settings": {
+    "steps": 40,
+    "true_cfg_scale": 4.0,
+    "guidance_scale": 1.0,
+    "negative_prompt": " ",
+    "source": "Qwen-Image-Edit-2511 model card example, used unmodified"
+  },
+  "sizing_note": "width/height forced from the person image; the pipeline would otherwise take the aspect from image[-1] (the garment).",
+  "prompt_strategies": {
+    "V1": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+    "V2": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2. The outfit in image 2 is {desc}."
+  },
+  "jobs": [
+    {
+      "name": "pose04_R08__G1_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G1",
+      "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+      "strategy": "V1",
+      "seed": 8801,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 75.2,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        479,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "d5d9aca2eda991d7aad15eb8c09257ccb310c09acc3e8d1ce936bd119752791a"
+    },
+    {
+      "name": "pose04_R08__G1_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G1",
+      "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+      "strategy": "V1",
+      "seed": 9902,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.8,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        479,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "d5d9aca2eda991d7aad15eb8c09257ccb310c09acc3e8d1ce936bd119752791a"
+    },
+    {
+      "name": "pose04_R08__G2_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G2",
+      "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+      "strategy": "V1",
+      "seed": 8801,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 75.0,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        672,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "c79d86e8ad64b37e22112369d8eaca44f90e0e7f82e22046608835e8a694c18a"
+    },
+    {
+      "name": "pose04_R08__G2_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G2",
+      "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+      "strategy": "V1",
+      "seed": 9902,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 75.0,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        672,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "c79d86e8ad64b37e22112369d8eaca44f90e0e7f82e22046608835e8a694c18a"
+    },
+    {
+      "name": "pose04_R08__G3_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G3",
+      "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+      "strategy": "V1",
+      "seed": 8801,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.5,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        492,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "c48237d3cdc0ad0e648488a4f826518aabc5e1d945d122089fc2a3d9be2508b6"
+    },
+    {
+      "name": "pose04_R08__G3_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose04_R08.png",
+      "person_tag": "pose04_R08",
+      "garment_id": "G3",
+      "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+      "strategy": "V1",
+      "seed": 9902,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.4,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        492,
+        1280
+      ],
+      "person_sha256": "e8a95cd4d1fa61e020d30fa6bc92fde89cc017c2cb9e754cad1daccfae9893c9",
+      "garment_sha256": "c48237d3cdc0ad0e648488a4f826518aabc5e1d945d122089fc2a3d9be2508b6"
+    },
+    {
+      "name": "pose02_R08__G1_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G1",
+      "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+      "strategy": "V1",
+      "seed": 8802,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.8,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        479,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "d5d9aca2eda991d7aad15eb8c09257ccb310c09acc3e8d1ce936bd119752791a"
+    },
+    {
+      "name": "pose02_R08__G1_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G1",
+      "garment": "data/garments/munn26fw/G1_munn26fw_0003.png",
+      "strategy": "V1",
+      "seed": 9903,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.6,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        479,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "d5d9aca2eda991d7aad15eb8c09257ccb310c09acc3e8d1ce936bd119752791a"
+    },
+    {
+      "name": "pose02_R08__G2_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G2",
+      "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+      "strategy": "V1",
+      "seed": 8802,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.8,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        672,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "c79d86e8ad64b37e22112369d8eaca44f90e0e7f82e22046608835e8a694c18a"
+    },
+    {
+      "name": "pose02_R08__G2_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G2",
+      "garment": "data/garments/munn26fw/G2_munn26fw_0010.png",
+      "strategy": "V1",
+      "seed": 9903,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.6,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        672,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "c79d86e8ad64b37e22112369d8eaca44f90e0e7f82e22046608835e8a694c18a"
+    },
+    {
+      "name": "pose02_R08__G3_V1_s8801.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G3",
+      "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+      "strategy": "V1",
+      "seed": 8802,
+      "seed_base": 8801,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.8,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        492,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "c48237d3cdc0ad0e648488a4f826518aabc5e1d945d122089fc2a3d9be2508b6"
+    },
+    {
+      "name": "pose02_R08__G3_V1_s9902.png",
+      "person": "outputs/pose_pilot/v1/pose02_R08.png",
+      "person_tag": "pose02_R08",
+      "garment_id": "G3",
+      "garment": "data/garments/munn26fw/G3_munn26fw_0022.png",
+      "strategy": "V1",
+      "seed": 9903,
+      "seed_base": 9902,
+      "prompt": "Replace the clothing worn by the person in image 1 with the complete outfit shown in image 2. Keep the person in image 1 unchanged: same face, same facial features, same hairstyle, same skin tone, same body proportions, same pose and the same background and camera framing. Only the clothing changes. Fit the garment naturally to the body with correct drape, folds and contact shadows, and keep its colour, material, texture, proportions and details exactly as they appear in image 2.",
+      "status": "ok",
+      "error": "",
+      "seconds": 74.5,
+      "requested_wh": [
+        1024,
+        1280
+      ],
+      "output_wh": [
+        1024,
+        1280
+      ],
+      "person_wh": [
+        1024,
+        1280
+      ],
+      "garment_wh": [
+        492,
+        1280
+      ],
+      "person_sha256": "2ab9a5de0688f9142ac0ac5c05297e109c0933cb722a6bf03700880a139bf7bd",
+      "garment_sha256": "c48237d3cdc0ad0e648488a4f826518aabc5e1d945d122089fc2a3d9be2508b6"
+    }
+  ]
+}

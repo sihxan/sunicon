@@ -1,0 +1,170 @@
+{
+  "pose04_R08__G1_V1.png": {
+    "dino_cos_to_garment": 0.9093,
+    "dino_cos_to_person_original": 0.1968,
+    "lab_dist_to_garment": 22.27,
+    "lab_dist_to_person_original": 109.82,
+    "pose_err_vs_person": 0.1135,
+    "torso_box": [
+      357,
+      363,
+      674,
+      733
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G1_V2.png": {
+    "dino_cos_to_garment": 0.86,
+    "dino_cos_to_person_original": 0.2312,
+    "lab_dist_to_garment": 18.47,
+    "lab_dist_to_person_original": 105.3,
+    "pose_err_vs_person": 0.1279,
+    "torso_box": [
+      351,
+      362,
+      667,
+      742
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G2_V1.png": {
+    "dino_cos_to_garment": 0.9058,
+    "dino_cos_to_person_original": 0.204,
+    "lab_dist_to_garment": 4.41,
+    "lab_dist_to_person_original": 45.28,
+    "pose_err_vs_person": 0.1296,
+    "torso_box": [
+      354,
+      372,
+      674,
+      737
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G2_V2.png": {
+    "dino_cos_to_garment": 0.8562,
+    "dino_cos_to_person_original": 0.2797,
+    "lab_dist_to_garment": 10.9,
+    "lab_dist_to_person_original": 54.11,
+    "pose_err_vs_person": 0.1045,
+    "torso_box": [
+      351,
+      377,
+      674,
+      730
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G3_V1.png": {
+    "dino_cos_to_garment": 0.7809,
+    "dino_cos_to_person_original": 0.4321,
+    "lab_dist_to_garment": 10.07,
+    "lab_dist_to_person_original": 54.51,
+    "pose_err_vs_person": 0.1008,
+    "torso_box": [
+      364,
+      372,
+      662,
+      733
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose04_R08__G3_V2.png": {
+    "dino_cos_to_garment": 0.7928,
+    "dino_cos_to_person_original": 0.4452,
+    "lab_dist_to_garment": 10.83,
+    "lab_dist_to_person_original": 45.13,
+    "pose_err_vs_person": 0.1106,
+    "torso_box": [
+      364,
+      372,
+      664,
+      733
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G1_V1.png": {
+    "dino_cos_to_garment": 0.8698,
+    "dino_cos_to_person_original": 0.2278,
+    "lab_dist_to_garment": 8.59,
+    "lab_dist_to_person_original": 57.58,
+    "pose_err_vs_person": 0.0469,
+    "torso_box": [
+      346,
+      370,
+      653,
+      703
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G1_V2.png": {
+    "dino_cos_to_garment": 0.8423,
+    "dino_cos_to_person_original": 0.2237,
+    "lab_dist_to_garment": 8.37,
+    "lab_dist_to_person_original": 54.62,
+    "pose_err_vs_person": 0.0574,
+    "torso_box": [
+      344,
+      376,
+      651,
+      715
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G2_V1.png": {
+    "dino_cos_to_garment": 0.8445,
+    "dino_cos_to_person_original": 0.2128,
+    "lab_dist_to_garment": 27.11,
+    "lab_dist_to_person_original": 108.63,
+    "pose_err_vs_person": 0.0962,
+    "torso_box": [
+      340,
+      377,
+      659,
+      724
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G2_V2.png": {
+    "dino_cos_to_garment": 0.7898,
+    "dino_cos_to_person_original": 0.2028,
+    "lab_dist_to_garment": 26.83,
+    "lab_dist_to_person_original": 108.27,
+    "pose_err_vs_person": 0.1026,
+    "torso_box": [
+      338,
+      371,
+      661,
+      726
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G3_V1.png": {
+    "dino_cos_to_garment": 0.7928,
+    "dino_cos_to_person_original": 0.3984,
+    "lab_dist_to_garment": 11.22,
+    "lab_dist_to_person_original": 31.01,
+    "pose_err_vs_person": 0.0427,
+    "torso_box": [
+      359,
+      381,
+      644,
+      711
+    ],
+    "people_detected_in_output": 1
+  },
+  "pose02_R08__G3_V2.png": {
+    "dino_cos_to_garment": 0.7885,
+    "dino_cos_to_person_original": 0.3803,
+    "lab_dist_to_garment": 26.39,
+    "lab_dist_to_person_original": 38.92,
+    "pose_err_vs_person": 0.0545,
+    "torso_box": [
+      357,
+      379,
+      642,
+      713
+    ],
+    "people_detected_in_output": 1
+  }
+}
